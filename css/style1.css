@@ -1,0 +1,121 @@
+.container-fluid{
+    padding: 0;
+}
+
+.logo{
+    width: 6vw;
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#tickets{
+    color:rgb(126, 212, 126) !important;
+}
+
+main{
+    padding: 2vw;
+    animation: fadeInAnimation ease .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.card1{
+    padding: 0.25rem;
+}
+
+.card{
+    border-radius: 0px;
+    width: 13rem;
+}
+
+#estudiante{
+    border: 1px solid blue !important;
+}
+
+#trainee{
+    border: 1px solid green !important;
+}
+
+#junior{
+    border: 1px solid orange !important;
+}
+
+.card-text-doc{
+    color:gray;
+    font-weight: lighter;
+    font-size: 14px;
+    margin: auto;
+}
+
+.venta{
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.venta p{
+    margin: 0;
+}
+
+.form{
+    padding-top: 1rem;
+    width: 60%;
+}
+
+#correo{
+    padding-top: 1rem;
+    margin: auto;
+}
+
+#input-c{
+    padding-bottom: 1.5rem;
+}
+
+#botones{
+    display: flex !important;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.boton{
+    width: 100%;
+    background-color: rgb(71, 221, 79);
+}
+
+#valorprecio{
+    margin: auto;
+}
+
+footer{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(38, 71, 82);
+}
+
+.footer1 a{
+    padding: 20px;
+    color: white !important;
+    text-decoration: none;
+}
+
+.footer1 a:hover{
+    color: black !important;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
